@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import {View, ViewPropTypes, ViewStyle} from 'react-native';
+import {Dimensions, View, ViewPropTypes, ViewStyle} from 'react-native';
 import PropTypes from 'prop-types';
 import {createResponder} from './libraries/GestureResponder';
 import TransformableImage from './libraries/TransformableImage';
